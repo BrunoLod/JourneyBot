@@ -1,7 +1,7 @@
 
 # Journey
 
-Chatbot do Journey, um app de simulação de um site de venda de pacotes de viagens, passagens aéreas, hospedagem etc. Por alguma razão de atualização do Google, a requisição de post para que possa receber os textos gerados pelo gemini estão sendo recusados, de modo que assim que eu consertar irei atualizar o código, mas sintam-se livres para me ajudar. 
+Chatbot do Journey, um app de simulação de um site de venda de pacotes de viagens, passagens aéreas, hospedagem etc. Para que a landing page possa prover respostas, é necessário, uma vez que implementei a aplicação utilizando o node.js, que inicialize no terminal do seu ambiente de desenvolvimento o node.js, com npm start. 
 
 ## 🔨 Objetivos do projeto
 
