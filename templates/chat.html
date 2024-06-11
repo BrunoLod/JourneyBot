@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="/static/img/journey_logo.png" />
+    <title>Journey - Chatbot</title>
+
+    <link rel="stylesheet" href="/static/css/app.css">
+</head>
+
+<body>
+    <header class="cabecalho container">
+        <div class="mai_items-cabecalho">
+            <img src="/static/img/journey_logo.png" alt="Logo Chatbot" class ="logo_app"> 
+            <h1 class="app_title">Your Journey</h1>
+        </div>
+        <div class="cabecalho__acoes">
+            <a href="#" id="botao-limpar-conversa">Limpar Conversa</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="chat container" id="chat">
+            <p class="chat__bolha chat__bolha--bot">
+                Olá! Sou a Jess, a assistente da Jornada de viagens.
+                Como posso te ajudar ?
+            </p>
+        </section>
+        <section class="entrada container">
+            <div class="entrada__container">
+                <input type="text" class="entrada__input" placeholder="Enviar uma mensagem" id="input">
+                <button aria-label="Botão de enviar" id="botao-enviar">
+                    <i class="icone icone--enviar-mensagem"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+
+</html>
