@@ -5,7 +5,7 @@
 
 # Jornada Viagens
 
-Chatbot do Jornada Viagens, um app de simulação de um site de venda de pacotes de viagens, passagens aéreas, hospedagem etc.
+Chatbot do Jornada Viagens, um app de simulação de um site de venda de pacotes de viagens, passagens aéreas, hospedagem etc. Por alguma razão de atualização do Google, a requisição de post para que possa receber os textos gerados pelo gemini estão sendo recusados, de modo que assim que eu consertar irei atualizar o código, mas sintam-se livres para me ajudar. 
 
 ## 🔨 Objetivos do projeto
 
